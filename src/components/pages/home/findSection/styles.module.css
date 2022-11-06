@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Poppins:wght@500&display=swap');
+
+#find-section-img {
+    width: 100%;
+}
+#find-section-txt h1 {
+    font-size: 4em;
+    margin-bottom: auto;
+}
+
+#find-section-txt {
+    text-align: left;
+    margin-left: 50px;
+    top: 15%;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+#find-section-txt p {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6em;
+    font-size: 1.4em;
+}

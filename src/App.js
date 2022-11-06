@@ -1,10 +1,10 @@
 import './App.css';
-import Header from "./components/header/headerContainer"
-import Footer from "./components/footer/Footer"
-import FindPickerUpper from './components/findPickerUpper';
-import Home from "./components/home/homeContainer";
-import Services from "./components/services";
-import About from "./components/about";
+import Header from "./components/common/header"
+import Footer from "./components/common/footer"
+import FindPickerUpper from './components/pages/findPickerUpper';
+import Home from "./components/pages/home";
+import Services from "./components/pages/services";
+import About from "./components/pages/about";
 import { Routes, Route } from "react-router-dom";
 
 const App = () => {

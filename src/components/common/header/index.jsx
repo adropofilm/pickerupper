@@ -1,6 +1,6 @@
 import logo from "./logo.svg"
-import NavLinks from "../navLinks";
-
+import NavLinks from "./navLinks";
+import OrangeButton from "../orangeButton"
 import styles from "./styles.module.css"
 
 const HeaderContainer = () => {
@@ -9,8 +9,8 @@ const HeaderContainer = () => {
         <img src={logo} alt="BigCo Inc. logo"/>
         <NavLinks />
         <div id={styles["nav-button-container"]}>
-          <button type="button">Login</button>
-          <button type="button">Sign Up</button>
+          <OrangeButton text="Login"/>
+          <OrangeButton text="Sign Up"/>
         </div>
       </div>
     )

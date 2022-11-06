@@ -1,5 +1,5 @@
 import styles from "./styles.module.css"
-import FindSection from "../findSection"
+import FindSection from "./findSection"
 
 const Home = () => {
     return (

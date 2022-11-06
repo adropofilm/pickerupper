@@ -1,0 +1,12 @@
+#header-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 50px;
+    align-items: center;
+}
+
+#nav-button-container { 
+    display: flex;
+    width: 225px;
+    justify-content: space-between;
+}
