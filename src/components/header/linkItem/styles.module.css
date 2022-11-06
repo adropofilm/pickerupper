@@ -1,0 +1,10 @@
+.link {
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    font-size: 1rem;
+}
+
+.link::after {
+    color: white;
+}

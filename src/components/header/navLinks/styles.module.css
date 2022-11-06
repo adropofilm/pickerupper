@@ -1,0 +1,5 @@
+#nav-links {
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
+}

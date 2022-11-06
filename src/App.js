@@ -1,21 +1,21 @@
 import './App.css';
-import HeaderContainer from "./components/header/HeaderContainer"
+import Header from "./components/header/headerContainer"
 import Footer from "./components/footer/Footer"
-import FindPickerUpperContainer from './components/findPickerUpper/FindPickerUpperContainer';
-import HomeContainer from "./components/home/HomeContainer";
-import ServicesContainer from "./components/services/ServicesContainer";
-import AboutContainer from "./components/about/AboutContainer";
+import FindPickerUpper from './components/findPickerUpper';
+import Home from "./components/home/homeContainer";
+import Services from "./components/services";
+import About from "./components/about";
 import { Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
     <div className="App">
-      <HeaderContainer/>
+      <Header/>
         <Routes>
-          <Route path="/" element={<HomeContainer />} />
-          <Route path="find-picker-upper" element={<FindPickerUpperContainer />} />
-          <Route path="services" element={<ServicesContainer />} />
-          <Route path="about" element={<AboutContainer />} />
+          <Route path="/" element={<Home />} />
+          <Route path="find-picker-upper" element={<FindPickerUpper />} />
+          <Route path="services" element={<Services />} />
+          <Route path="about" element={<About />} />
         </Routes>
       <Footer/>
     </div>

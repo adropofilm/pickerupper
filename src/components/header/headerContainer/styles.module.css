@@ -1,0 +1,24 @@
+#header-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 50px;
+    align-items: center;
+}
+
+#nav-button-container { 
+    display: flex;
+    width: 225px;
+    justify-content: space-between;
+}
+
+#nav-button-container button {
+    background-color: #FF9505;
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    border: none;
+}
