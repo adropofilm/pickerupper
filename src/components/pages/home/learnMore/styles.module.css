@@ -1,0 +1,25 @@
+#learn-more {
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: space-between;
+    padding: 75px 100px;
+}
+
+#learn-more-image-container {
+    position: relative;
+}
+
+#learn-more-text {
+    text-align: left;
+}
+
+#learn-more-text p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.find-section-img:nth-child(2) {
+    position: absolute;
+    /* z-index: 2; */
+    left: 100px;
+    top: 250px;
+}

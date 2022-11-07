@@ -4,3 +4,8 @@
     top: 0px;
     width: 100%;
 }
+
+#gray-bg {
+    display: flex;
+    flex-direction: column;
+}
