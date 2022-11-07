@@ -1,0 +1,18 @@
+.how-to-card {
+    width: 300px;
+}
+
+.how-to-card p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-title {
+    color: #FF9505;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.card-text {
+    line-height: 25px;
+    font-size: 1.1em;
+}

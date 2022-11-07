@@ -1,0 +1,13 @@
+#how-to {
+    padding: 75px 100px;
+    background-color: #F4F4F4;
+}
+
+#how-to-cards-container {
+    display: flex;
+    justify-content: center;
+}
+
+#how-to h2 {
+    text-align: left;
+}
