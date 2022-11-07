@@ -2,6 +2,7 @@ import styles from "./styles.module.css"
 import FindSection from "./findSection"
 import LearnMore from "./learnMore"
 import HowTo from "./howTo"
+import Featured from "./featured"
 
 const Home = () => {
     return (
@@ -10,6 +11,7 @@ const Home = () => {
             <div id={styles["gray-bg"]}>
                 <LearnMore />
                 <HowTo />
+                <Featured />
             </div>
         </div>
     )

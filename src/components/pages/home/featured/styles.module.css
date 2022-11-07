@@ -1,0 +1,15 @@
+#featured {
+    margin: 10px;
+    position: relative;
+}
+
+#featured h2 {
+    text-align: right;
+    padding-right: 6%;
+}
+
+#featured-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

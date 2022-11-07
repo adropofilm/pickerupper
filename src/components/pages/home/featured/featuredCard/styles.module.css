@@ -1,0 +1,21 @@
+.featured-card {
+    width: 30%;
+    margin:20px;
+    box-shadow: 0px 10px 28px -8px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 10px 28px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 28px -8px rgba(0,0,0,0.75);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.featured-card p {
+    background-color: white;
+    height: 70px;
+    margin: auto;
+    position: absolute;
+    width: 100%;
+    top: 350px;
+}
+
+.featured-card img {
+    width: 100%;
+}

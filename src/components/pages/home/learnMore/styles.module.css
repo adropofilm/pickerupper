@@ -11,6 +11,11 @@
 
 #learn-more-text {
     text-align: left;
+    font-size: 1.1em;
+}
+
+#learn-more-text button {
+    margin-top: 20px;
 }
 
 #learn-more-text p {
