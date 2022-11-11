@@ -1,0 +1,21 @@
+#join-divider {
+    border-right: thin solid black;
+    margin: 0px 75px;
+}
+
+#join {
+    padding: 125px;
+}
+
+#header {
+    padding-bottom: 40px;
+}
+
+#join h2 {
+    text-align: left;
+}
+
+#join-picker-upper-container {
+    display: flex;
+    justify-content: center;
+}

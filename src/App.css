@@ -53,3 +53,20 @@ body {
   font-size: 2.5em;
   color: #016FB9;
 }
+
+.monteserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.poppins-bold {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.orange-text {
+  color: #FF9505;
+}

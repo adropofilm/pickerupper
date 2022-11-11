@@ -1,0 +1,15 @@
+#find-picker-upper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+#find-picker-upper button {
+    margin-bottom:20px;
+}
+
+#header {
+    font-size: 1.3em;
+    margin-bottom: -10px;
+}
