@@ -5,6 +5,7 @@ import HowTo from "./howTo"
 import Featured from "./featured"
 import Join from "./join"
 import GetStarted from "./getStarted"
+import GetApp from "./getApp"
 
 const Home = () => {
     return (
@@ -13,10 +14,11 @@ const Home = () => {
             <div id={styles["gray-bg"]}>
                 <LearnMore />
                 <HowTo />
-                <Featured />
-                <Join />
-                <GetStarted />
             </div>
+            <Featured />
+            <Join />
+            <GetStarted />
+            <GetApp />
         </div>
     )
 }
