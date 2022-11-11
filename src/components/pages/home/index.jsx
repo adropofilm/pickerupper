@@ -4,6 +4,7 @@ import LearnMore from "./learnMore"
 import HowTo from "./howTo"
 import Featured from "./featured"
 import Join from "./join"
+import GetStarted from "./getStarted"
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
                 <HowTo />
                 <Featured />
                 <Join />
+                <GetStarted />
             </div>
         </div>
     )

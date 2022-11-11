@@ -1,0 +1,11 @@
+#get-started {
+    height: 484px;
+    background-size: cover;
+    background-image: url("../../../../assets/woman_food.png");
+    padding: 75px;
+}
+
+#get-started-container {
+    text-align: left;
+    margin-left: 55%;
+}
